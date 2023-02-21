@@ -1,0 +1,138 @@
+% !TeX TS-program = lualatex
+% vim: set spelllang=fr:
+\documentclass{poster}
+\setmainlanguage{french}
+
+\title{Série \emph{\enquote{Pionnières de l’informatique}}}
+\author{AÉDIROUM}
+\date{février~2023}
+
+\begin{document}\hspace*{-15pt}%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % KATHERINE JOHNSON
+    \begin{tikzpicture}
+        \definecolor{background tint}{HTML}{9da2cc}
+        \definecolor{text accent}{HTML}{e2ecfa}
+        \definecolor{text main}{HTML}{f4f6fa}
+
+        \background{images/johnson}
+        \name{Katherine}{Johnson}
+            {right}{south east}{([xshift=5pt]page cs:.95,.54)}
+
+        \biography
+            {(page cs:.2,.49) .. controls (page cs:.25,.125)
+                and (page cs:.62,.331) .. (page cs:.62,-.1)}
+            {(page cs:.95,.49) -- (page cs:.95,-.1)}{
+                \textbf{Katherine Goble Johnson} (1918--2020) était une
+                mathématicienne, physicienne et ingénieure spatiale. Pendant
+                plus de trente ans, elle a réalisé pour la NASA les calculs
+                de trajectoire complexes nécessaires à des
+                missions telles que \emph{Freedom~7} (première mission spatiale
+                étasunienne habitée en~1961) et \emph{Apollo~11} (premiers pas
+                sur la Lune en~1969). Plus tard, elle a contribué à la
+                transition vers l’utilisation d’ordinateurs pour réaliser ces
+                calculs.
+            }
+
+        \notice{%
+            \enquote{Katherine Johnson à son bureau
+                du \emph{Langley Research Center}}~(septembre~1966). NASA.
+        }{%
+            Tirés de Wikipédia en date du 11~février~2023.
+        }
+    \end{tikzpicture}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % GRACE HOPPER
+    \begin{tikzpicture}
+        \definecolor{background tint}{HTML}{c78a69}
+        \definecolor{text accent}{HTML}{ffd2ba}
+        \definecolor{text main}{HTML}{ffefe7}
+
+        \background{images/hopper}
+        \fill[black, opacity=.75] (page cs:-.85,-.5) rectangle (page cs:-.2,-.25);
+        \name{Grace}{Hopper}
+            {left}{south west}{([xshift=-5pt]page cs:-.815,-.45)}
+        \biography
+            {(page cs:-.815,-.5) -- (page cs:-.815,-.9)}
+            {(page cs:-.015,-.5) -- (page cs:-.08,-.9)}{
+                \textbf{Grace Murray Hopper} (1906--1992) était une
+                informaticienne et mathématicienne, l’une des premières à proposer
+                l’idée de langages de programmation indépendants des machines.
+                Elle a développé le premier compilateur, le \emph{A-0~System},
+                puis le langage \emph{COBOL}. Elle a aussi contribué au
+                développement et à la programmation des \emph{Harvard Mark~I} à
+                \emph{III}. Le \emph{bug} informatique le plus emblématique, un
+                insecte coincé dans un relais du \emph{Mark~II} en~1947, 
+                fût découvert par son équipe.
+            }
+
+        \notice{%
+            \enquote{Grace Hopper examinant le mécanisme de séquençage du
+                \emph{Harvard~Mark~I}}~(août~1944). \emph{National Museum of
+                American History, Archives Center} (NMAH.AC.0324.36).
+        }{%
+            Tirés de Wikipédia en date du 11~février~2023.
+        }
+    \end{tikzpicture}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % MARGARET HAMILTON
+    \begin{tikzpicture}
+        \definecolor{background tint}{HTML}{7b8f5b}
+        \definecolor{text accent}{HTML}{e3f4c6}
+        \definecolor{text main}{HTML}{f7f8f4}
+
+        \background{images/hamilton}
+        \name{Margaret}{Hamilton}{right}{north east}{([xshift=-5pt]page cs:.75,.27)}
+        \biography
+            {(page cs:-.86,.12) -- (page cs:-.86,-.9)}
+            {(page cs:-.37,.12) -- (page cs:-.4,0) -- (page cs:-.4,-.9)}{
+                \textbf{Margaret Heafield Hamilton} (1936-) est une
+                informaticienne et ingénieure en logiciel. Elle a travaillé sur
+                le développement du logiciel embarqué des programmes
+                \emph{Apollo} et \emph{Skylab}, en particulier la mission
+                \emph{Apollo~11} qui a vu l’humain marcher sur la Lune en 1969.
+                Elle est à l’origine du terme \enquote{génie logiciel} et de
+                nombre de ses principes fondamentaux. Hamilton a contribué à
+                l’élever au même rang que les autres disciplines de génie.
+            }
+
+        \notice{%
+            \enquote{Margaret Hamilton posant avec le code source du logiciel
+                embarqué du programme Apollo}~(1969). \emph{MIT Museum,} restaurée par Adam Cuerden.
+        }{%
+            Tirés de Wikipédia en date du 11~février~2023.
+        }
+    \end{tikzpicture}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % ADA LOVELACE
+    \begin{tikzpicture}
+        \definecolor{background tint}{HTML}{8c882f}
+        \definecolor{text accent}{HTML}{fffdb0}
+        \definecolor{text main}{HTML}{fffeed}
+
+        \background{images/lovelace}
+        \name{Ada}{Lovelace}{left}{south west}{([xshift=-5pt]page cs:-.875,.27)}
+        \biography
+            {(page cs:-.875,.22) -- (page cs:-.875,.01)
+                -- (page cs:-.485,-.9)}
+            {(page cs:0,.22) .. controls (page cs:-.3,0)
+                .. (page cs:-.4,-.3) -- (page cs:-.4,-.9)}{
+                \textbf{Augusta Ada King, comtesse de Lovelace} (1815--1852)
+                était une mathématicienne, considérée comme la première
+                programmeuse de l’histoire. Dans un mémoire de 1843 sur la
+                \emph{machine analytique} de Babbage, elle décrit un programme
+                qui calcule les nombres de Bernoulli, comprenant la première
+                occurrence connue d’une boucle \enquote{tant que}. Lovelace
+                anticipe aussi le potentiel des machines à manipuler non
+                seulement des nombres, mais plus généralement toute forme de
+                données.
+            }
+
+        \notice{%
+            \enquote{Portrait d’Ada Lovelace par Alfred Edward Chalon}~(1838).
+            \emph{Computer History Museum.}
+        }{%
+            Tirés de Wikipédia en date du 11~février~2023.
+        }
+    \end{tikzpicture}
+\end{document}
